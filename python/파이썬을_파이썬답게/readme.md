@@ -44,3 +44,21 @@ string.ascii_letters # 대소문자 모두 abcdefghijklmnopqrstuvwxyzABCDEFGHIJK
 string.digits # 숫자 0123456789
 ```
 
+## 5. 정렬된 리스트 구하기
+파이썬에서 원본을 유지한채 정렬된 리스트를 구하고자 할때는 `sorted`를 사용하면 된다. <br>
+```
+list1 = [3, 2, 1]
+list2 = sorted(list1)  #list2 = [1,2,3]
+```
+## 6. zip 함수
+`zip(*iterables)`는 각 iterables의 요소들을 모으는 이터레이터를 만든다. <br>
+```
+mylist = [1, 2, 3]
+new_list = [40, 50, 60]
+for i in zip(mylist, new_list):
+    print (i)
+
+(1, 40)
+(2, 50)
+(3, 60)
+```
