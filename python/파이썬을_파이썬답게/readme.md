@@ -62,3 +62,39 @@ for i in zip(mylist, new_list):
 (2, 50)
 (3, 60)
 ```
+
+## 7. map 함수
+파이썬에서는 map 함수를 사용하면 for문을 사용하지 않고도 멤버의 타입을 일괄 변환할 수 있다.
+```
+# 1. for문
+list1 = ['1', '100', '33']
+list2 = []
+for value in list1:
+    list2.append(int(value)) #list2 = [1,100,33]
+    
+# 2. map함수    
+list1 = ['1', '100', '33']
+list2 = list(map(int, list1) #list2 = [1,100,33]   
+```
+
+## 8. 곱집합 구하기.
+```
+iterable1 = 'ABCD'
+iterable2 = 'xy'
+iterable3 = '1234'
+
+for value1 in iterable1:
+    for value2 in iterable2:
+        for value3 in iterable3:
+            print(value1, value2, value3)
+```
+위 코드를 파이썬에서는 `itertools.product`를 이용하면, for 문을 사용하지 않고도 곱집합을 구할 수 있습니다.
+```
+import itertools
+
+iterable1 = 'ABCD'
+iterable2 = 'xy'
+iterable3 = '1234'
+print(list(itertools.product(iterable1, iterable2, iterable3)))
+```
+
