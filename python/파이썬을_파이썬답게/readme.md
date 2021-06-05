@@ -88,7 +88,7 @@ for value1 in iterable1:
         for value3 in iterable3:
             print(value1, value2, value3)
 ```
-위 코드를 파이썬에서는 `itertools.product`를 이용하면, for 문을 사용하지 않고도 곱집합을 구할 수 있습니다.
+위 코드를 파이썬에서는 `itertools.product`를 이용하면, for 문을 사용하지 않고도 곱집합을 구할 수 있다.
 ```
 import itertools
 
@@ -96,5 +96,18 @@ iterable1 = 'ABCD'
 iterable2 = 'xy'
 iterable3 = '1234'
 print(list(itertools.product(iterable1, iterable2, iterable3)))
+```
+
+## 9. join 함수
+```
+my_list = ['1', '100', '33']
+answer = ''
+for value in my_list:
+    answer += value  #answer = 110033
+```
+파이썬의 str.join(iterable)을 사용하면 이 코드를 두 줄로 줄일 수 있다.
+```
+my_list = ['1', '100', '33']
+answer = ''.join(my_list)
 ```
 
