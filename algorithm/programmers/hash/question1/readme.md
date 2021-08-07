@@ -11,12 +11,11 @@ completion의 길이는 participant의 길이보다 1 작습니다.
 <br>
 
 <h3>입출력 예</h3>
-```
-participant	completion	return
-["leo", "kiki", "eden"]	["eden", "kiki"]	"leo"
-["marina", "josipa", "nikola", "vinko", "filipa"]	["josipa", "filipa", "marina", "nikola"]	"vinko"
-["mislav", "stanko", "mislav", "ana"]	["stanko", "ana", "mislav"]	"mislav"
-```
+participant	completion	return <br>
+["leo", "kiki", "eden"]	["eden", "kiki"]	"leo" <br>
+["marina", "josipa", "nikola", "vinko", "filipa"]	["josipa", "filipa", "marina", "nikola"]	"vinko" <br>
+["mislav", "stanko", "mislav", "ana"]	["stanko", "ana", "mislav"]	"mislav" <br>
+
 <h3>입출력 예 설명</h3>
 예제 #1 <br>
 - "leo"는 참여자 명단에는 있지만, 완주자 명단에는 없기 때문에 완주하지 못했습니다.
@@ -24,5 +23,5 @@ participant	completion	return
 예제 #2<br>
 - "vinko"는 참여자 명단에는 있지만, 완주자 명단에는 없기 때문에 완주하지 못했습니다.
 <br><br>
-예제 #3
+예제 #3<br>
 - "mislav"는 참여자 명단에는 두 명이 있지만, 완주자 명단에는 한 명밖에 없기 때문에 한명은 완주하지 못했습니다.
