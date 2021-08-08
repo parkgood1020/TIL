@@ -10,9 +10,7 @@
 하의	청바지  <br>
 겉옷	긴 코트 <br>
 스파이가 가진 의상들이 담긴 2차원 배열 clothes가 주어질 때 서로 다른 옷의 조합의 수를 return 하도록 solution 함수를 작성해주세요.
-
 <br>
-
 <h3>제한사항</h3>
 clothes의 각 행은 [의상의 이름, 의상의 종류]로 이루어져 있습니다. <br>
 스파이가 가진 의상의 수는 1개 이상 30개 이하입니다.  <br>
@@ -35,9 +33,11 @@ headgear에 해당하는 의상이 yellow_hat, green_turban이고 eyewear에 해
 3. green_turban <br>
 4. yellow_hat + blue_sunglasses <br>
 5. green_turban + blue_sunglasses <br>
+<br>
 - 예제 #2 <br>
 face에 해당하는 의상이 crow_mask, blue_sunglasses, smoky_makeup이므로 아래와 같이 3개의 조합이 가능합니다.
 <br>
 1. crow_mask <br>
 2. blue_sunglasses <br>
 3. smoky_makeup <br>
+
