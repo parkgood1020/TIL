@@ -19,7 +19,7 @@
 - Sever → Host OS → Docker Engine → Container 올리기.
 - CPU, RAM, Disk, Network와 같은 운영체제의 자원을 필요한 만큼 격리하여 컨테이너에 할당.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/65bf8545-51a2-4e3d-a885-a02dade843ab/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/65bf8545-51a2-4e3d-a885-a02dade843ab/Untitled.png)
+![image](https://user-images.githubusercontent.com/74750848/128874574-a8900a60-47fe-4eaa-8866-de724e2b2af9.png)
 
 ### 1) Hypervisor 가상화
 
